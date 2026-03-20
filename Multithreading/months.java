@@ -14,7 +14,7 @@ class FEB extends Thread{
         }
     }
 }
-public class pr {
+public class months {
     public static void main(String[] args) throws InterruptedException{
         JAN ob1=new JAN();
         FEB ob2=new FEB();
