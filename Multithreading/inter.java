@@ -1,4 +1,4 @@
-class Student{
+class Student1{
     public void display(String name){
         //     try{
             //     Thread.sleep(1000);
@@ -11,7 +11,7 @@ class Student{
 //     System.out.println(name+i);
 
 // }
-                synchronized(Student.class){ // Class level used when two objects are present.
+                synchronized(Student1.class){ // Class level used when two objects are present.
     for(int i=1;i<=5;i++){
     System.out.println(name+i);
 
